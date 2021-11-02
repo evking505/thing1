@@ -1,5 +1,4 @@
 class Collatz:
-    #counter = 0
 
     def __init__(self, num=-1):
         self.num = num
@@ -18,8 +17,5 @@ class Collatz:
                 else:
                     self.num = ((self.num*3)+1)
                 counter += 1
-                print(self.num)
+                #print(self.num)
             return counter
-
-test1 = Collatz()
-print(test1.compute(91902348091230))
